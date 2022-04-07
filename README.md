@@ -1,6 +1,7 @@
 # bm40_layout
 My bm40 keyboard layout
 
+## Introduction
 Inspired by
 [benballack](https://configure.zsa.io/planck-ez/layouts/4D3ym/jYYjx/0), but this
 is for [bm40rgbhs](https://kprepublic.com/products/bm40-rgb-40-hot-swap-custom-mechanical-keyboard-pcb-qmk-underglow-type-c-planck)
@@ -12,5 +13,6 @@ This layout is only for MacOS user, especially for using vim and tmux!
 
 Detailed layout is [here](https://configure.zsa.io/planck-ez/layouts/ExmJ6/latest/2)
 
+## Final
 I will keep this updated. Hope this will inspired you. Especially YOU who are
 reading this README! Thanks!
