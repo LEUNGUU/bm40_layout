@@ -16,6 +16,8 @@
 #define MAC_SPOTLIGHT LGUI(KC_SPC)
 #define SCREEN_SHOT LSG(KC_4)
 #define MAC_LOCKSCREEN LCTL(LGUI(KC_Q))
+#define MAC_SETTING LGUI(KC_COMMA)
+#define MAC_SHUTDOWN LCTL(LALT(LGUI(KC_EJCT)))
 
 #define ES_LESS_MAC KC_GRAVE
 #define ES_GRTR_MAC LSFT(KC_GRAVE)
@@ -69,8 +71,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [MAC] = LAYOUT_planck_mit(
     MAC_EXIT,   MAC_COPY,   MAC_PASTE, MAC_REFRESH, MAC_NEWT, _______, _______,_______,_______,_______,_______,MAC_LOCKSCREEN,
     MAC_SELECT, MAC_SAVE,   MAC_CUT,   MAC_FIND, SCREEN_SHOT, _______,_______,_______,_______,_______,_______,_______,
-    MAC_UNDO,   MAC_CLOSEW, _______,MAC_PRINT,_______,_______,_______,_______,_______,_______,_______,_______,
-    _______,_______,_______,_______,MAC_SPOTLIGHT,    _______,    _______,_______,_______,_______,_______
+    MAC_UNDO,   MAC_CLOSEW, _______,MAC_PRINT,_______,_______,_______,_______,_______,_______,_______,MAC_SHUTDOWN,
+    _______,_______,_______,MAC_SETTING,MAC_SPOTLIGHT,    _______,    _______,_______,_______,_______,_______
   ),
 
 };
