@@ -17,8 +17,10 @@
 
 #include "config_common.h"
 
-#define NO_ACTION_ONESHOT
+// #define NO_ACTION_ONESHOT
 
+#define IGNORE_MOD_TAP_INTERRUPT
+#define TAPPING_FORCE_HOLD
 /* USB Device descriptor parameter */
 #define VENDOR_ID       0x4B50 // "KP"
 #define PRODUCT_ID      0x3430 // "40"
