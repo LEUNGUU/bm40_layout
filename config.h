@@ -19,7 +19,7 @@
 
 // #define NO_ACTION_ONESHOT
 
-#define IGNORE_MOD_TAP_INTERRUPT
+// #define IGNORE_MOD_TAP_INTERRUPT
 #define TAPPING_FORCE_HOLD
 /* USB Device descriptor parameter */
 #define VENDOR_ID       0x4B50 // "KP"
